@@ -1,0 +1,14 @@
+run local[5]
+import play.api.libs.json._
+run local[5]
+gen-idea
+gen-idea spark-streaming-bigdata
+gen-idea:spark-streaming-bigdata
+gen-idea:spark-streaming-bigdata/build.sbt
+gen-idea:build.sbt
+gen-idea
+gen-idea:
+gen-idea:./
+scala demo
+scalac Demo.scala
+run local[5]
